@@ -25,4 +25,6 @@ const item = {name: "Demon Monarch's Ring", durability: 50, enhancement: 10};
       expect(enhancer.fail(item)).toEqual(lost)
     })
   })
+
+  it.todo('if enhancement is greater than 0, include level')
 })
