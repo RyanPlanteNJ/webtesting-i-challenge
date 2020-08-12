@@ -26,5 +26,15 @@ const item = {name: "Demon Monarch's Ring", durability: 50, enhancement: 10};
     })
   })
 
-  it.todo('if enhancement is greater than 0, include level')
+  describe('if enhancement is greater than 0, include level', () => {
+    const item = {name: "Demon Monarch's Ring", durability: 50, enhancement: 20};
+    it('includes enhancement level', () => {
+      let boosted = {}
+      if(item.enhancement > 0) { boosted = {...item, name: `[+${item.enhancement}] ${item.name}`} } else {
+        boosted = {...item}
+      }
+      expect(enhancer.get(item)).toEqual(boosted)
+    })
+  })
+
 })
