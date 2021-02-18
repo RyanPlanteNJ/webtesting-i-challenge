@@ -1,0 +1,27 @@
+{
+  "name": "webtesting-i-challenge",
+  "version": "1.0.0",
+  "description": "Web Testing I Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanPlanteNJ/webtesting-i-challenge.git"
+  },
+  "keywords": ["lambda",
+    "testing"
+  ],
+  "author": "Ryan Plante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanPlanteNJ/webtesting-i-challenge/issues"
+  },
+  "homepage": "https://github.com/RyanPlanteNJ/webtesting-i-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.3.0",
+    "sqlite3": "^5.0.0"
+  }
+}

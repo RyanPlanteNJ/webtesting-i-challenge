@@ -27,12 +27,12 @@ In this project, you will **write unit tests and the implementation code** for a
 
 Follow these steps to setup your git _fork_ and _branch_.
 
-- [ ] Fork this repository.
-- [ ] Use GitHub's website to add your project manager as collaborator on **your fork**.
-- [ ] **Clone your forked version** of the repository (**Not Lambda's**!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Commit changes to your `<firstName-lastName>` branch.
-- [ ] Push often to your branch: `git push origin <firstName-lastName>`.
+- [x] Fork this repository.
+- [x] Use GitHub's website to add your project manager as collaborator on **your fork**.
+- [x] **Clone your forked version** of the repository (**Not Lambda's**!).
+- [x] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [x] Commit changes to your `<firstName-lastName>` branch.
+- [x] Push often to your branch: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -66,7 +66,7 @@ The following sections list information provided by the client about `items` and
 ### When enhancement fails
 
 - If the item's enhancement is less than 15, the durability of the item is decreased by 5.
-- If the item's enhancement is 15 or more, the durability of the item is decreased by 10.
+  - If the item's enhancement is 15 or more, the durability of the item is decreased by 10.
 - If the item's enhancement level is greater than 16, the enhancement level decreases by 1 (17 goes down to 16, 18 goes down to 17).
 
 ## Stretch Problem
